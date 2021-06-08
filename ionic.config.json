@@ -1,0 +1,7 @@
+{
+  "name": "ioniccapmovie",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

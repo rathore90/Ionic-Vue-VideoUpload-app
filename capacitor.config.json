@@ -1,0 +1,6 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "ioniccapmovie",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

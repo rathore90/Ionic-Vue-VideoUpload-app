@@ -4,14 +4,29 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "ionic:serve": "vue-cli-service serve",
+    "ionic:build": "vue-cli-service build",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "@capacitor/app": "1.0.0",
+    "@capacitor/core": "3.0.0",
+    "@capacitor/haptics": "1.0.0",
+    "@capacitor/ios": "3.0.0",
+    "@capacitor/keyboard": "1.0.0",
+    "@capacitor/status-bar": "1.0.0",
+    "@ionic-native/core": "^5.33.1",
+    "@ionic-native/video-capture-plus": "^5.33.1",
+    "@ionic/core": "^5.6.8",
+    "@ionic/vue": "0.0.9",
+    "cordova-plugin-video-capture-plus": "^1.0.0",
+    "core-js": "^3.14.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
+    "@capacitor/cli": "3.0.0",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
